@@ -50,9 +50,42 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     margin:0px;
 }
 
+h1, h2 {
+     text-align: center;
+     font-family: Questrial;
+     font-size: 24px;  
+     color: #C0C0C0;
+}
+
+h2 {
+     padding: 2%;
+}
+
+span {
+     font-family: Lobster Two;
+     color: #6699FF;
+}
+
+section {
+     text-align: center;
+     border: 3px solid #6699FF;
+     font-family: Shadows Into Light;
+     font-size: 24px;
+     color: #C0C0C0;
+}
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+section {
+     padding: 5% 0%;
+     margin: 2% 5%;
+}
+
+.nav {
+     background-color: #C0C0C0;
+     height: 500px;
+}
+
+
