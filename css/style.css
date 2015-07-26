@@ -66,14 +66,19 @@ h2 {
 span {
      font-family: Lobster Two;
      color: #6699FF;
+     font-size: 30px;
 }
 
 section {
      text-align: center;
-     border: 3px solid #6699FF;
+     border: 3px dashed #6699FF;
      font-family: Shadows Into Light;
-     font-size: 24px;
+     font-size: 35px;
      color: #C0C0C0;
+}
+
+article {
+     background-color: white;
 }
 /******************************************
 /* LAYOUT                   
@@ -83,9 +88,14 @@ section {
      margin: 2% 5%;
 }
 
-.nav {
+main {
      background-color: #C0C0C0;
-     height: 500px;
 }
 
+article {
+     display: inline-block;
+     width: 27%;
+     height: 400px;
+     margin: 3%;
+}
 
